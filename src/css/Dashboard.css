@@ -1,0 +1,44 @@
+/* General dashboard container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff; /* White background */
+}
+
+
+
+/* Main content area */
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Container for cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #000000; /* Black border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #000000; /* Black text */
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #000000; /* Black text */
+}
+

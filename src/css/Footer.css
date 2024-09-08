@@ -1,0 +1,13 @@
+/* Footer styling */
+.dashboard-footer {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Ensure full width */
+    position: relative; /* Relative position */
+    font-family: Arial, sans-serif; /* Ensure the font is consistent */
+}
+
+
+

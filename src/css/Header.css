@@ -1,0 +1,13 @@
+/* Header styling */
+.dashboard-header {
+    background-color: #ffffff; /* Black background */
+    color: #000000; /* White text */
+    padding: 20px;
+    width: 100%; /* Ensure full width */
+    text-align: center;
+    position: sticky; /* Make header stick to the top */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it stays on top */
+    font-family: Arial, sans-serif; /* Ensure the font is consistent */
+}
+
