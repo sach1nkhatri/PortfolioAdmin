@@ -1,12 +1,12 @@
 /* Footer styling */
-.dashboard-footer {
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+.footer-typing-animation {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    margin-bottom: 20px;
     text-align: center;
-    padding: 10px;
-    width: 100%; /* Ensure full width */
-    position: relative; /* Relative position */
-    font-family: Arial, sans-serif; /* Ensure the font is consistent */
+    white-space: normal;
+    overflow: hidden;
+    border-right: 3px solid #000000;
 }
 
 

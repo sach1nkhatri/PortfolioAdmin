@@ -6,7 +6,7 @@ import '../css/Footer.css'; // Import the CSS file for footer styles
 const Footer = () => {
     return (
         <footer className="dashboard-footer">
-            <p className="typing-animation">&copy; 2024 Your Portfolio. All rights reserved.</p>
+            <p className="footer-typing-animation">&copy; 2024 Your Portfolio. All rights reserved.</p>
         </footer>
     );
 };

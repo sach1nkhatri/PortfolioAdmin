@@ -3,6 +3,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth"; // Import the auth service
 import { getDatabase } from "firebase/database"; // Import the database service
+import { getStorage } from "firebase/storage"; // Import the storage service
 import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
@@ -13,8 +14,8 @@ const firebaseConfig = {
     projectId: "myportfolio-ef883",
     storageBucket: "myportfolio-ef883.appspot.com",
     messagingSenderId: "394188612629",
-    appId: "1:394188612629:web:ee248d85bf81e53cb91a1c",
-    measurementId: "G-L1L4C5QRHJ"
+    appId: "1:394188612629:web:9cf132f296a5c20db91a1c",
+    measurementId: "G-5KNVMKPR5E"
 };
 
 // Initialize Firebase
@@ -23,6 +24,8 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase services
 const auth = getAuth(app);
 const database = getDatabase(app);
+const storage = getStorage(app); // Initialize Firebase Storage
 getAnalytics(app);
+
 // Export the services
-export { auth, database };
+export { auth, database, storage }; // Export storage along with auth and database

@@ -41,4 +41,30 @@
     margin-top: 0;
     color: #000000; /* Black text */
 }
+@media (max-width: 768px) {
+    .dashboard-content {
+        flex-direction: column; /* Stack content vertically */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
 
+    .card-container {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 10px; /* Reduce gap between cards */
+    }
+
+    .card {
+        width: 100%; /* Cards take full width on smaller screens */
+        max-width: 300px; /* Set a max-width to avoid overly large cards */
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-container {
+        padding: 0 5px; /* Reduce padding on very small screens */
+    }
+
+    .card {
+        padding: 10px; /* Reduce padding inside cards */
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+}

@@ -13,11 +13,11 @@ const Dashboard = () => {
             <main className="dashboard-content">
                 <div className="card-container">
                     <div className="card">
-                        <h2>Blogs</h2>
+                        <h2><Link to="/blog">Blog</Link></h2>
                         <p>Manage your blog posts here.</p>
                     </div>
                     <div className="card">
-                        <h2>Work</h2>
+                        <h2><Link to="/work">Work</Link></h2>
                         <p>View and manage your work-related tasks.</p>
                     </div>
                     <div className="card">
